@@ -1,66 +1,44 @@
 # AES Services LLC
 
-## 🚀 Premium GPU Server Leasing & High-Performance Computing
+## AES Foundry is coming
 
-Welcome to AES Services - your trusted partner for enterprise-grade GPU server rentals and high-performance computing solutions.
+AES Services is building Foundry: a cloud infrastructure platform for builders who need virtual machines, dedicated bare metal, private networking, storage, usage-aware billing, and a clean customer console.
 
-### 🎯 What We Do
+We are moving from GPU leasing into a broader platform: instant VMs for everyday workloads, bare metal for customers who need direct hardware control, and a future console/API layer that makes the whole stack easier to operate.
 
-**Specialized GPU Server Leasing**
-- **AI/ML Training** - Accelerate your machine learning projects with powerful GPU clusters
-- **Bare Metal GPU Servers** - Full hardware control with no virtualization overhead
-- **VM GPU Servers** - Flexible virtualized instances with GPU passthrough technology
+### What We Are Building
 
-### 🔧 Our Hardware
+**Virtual Machines**
+- CPU and future GPU-backed instances
+- Private networking, firewalls, images, snapshots, and persistent disks
+- Public SDK and CLI for automation-first users
 
-**Enterprise-Grade GPUs**
-- **NVIDIA RTX Pro 6000** - Professional workstation GPUs for demanding applications
-- **NVIDIA RTX 4090** - Latest consumer flagship GPUs for maximum performance
-- **High-Speed NVMe Storage** - Fast data access for your workloads
-- **Optimized Cooling & Power** - Maximum uptime and performance
+**Bare Metal**
+- Dedicated servers for customers who need predictable performance
+- GPU nodes, NVMe-heavy machines, and custom hardware profiles
+- Rescue, reinstall, and inventory workflows for operator-managed hardware
 
-### 📊 Service Stats
+**Foundry Console**
+- Projects, API keys, instances, disks, wallets, usage, and audit history
+- Clear operations tracking for long-running infrastructure tasks
+- Customer-facing workflows backed by the same API used by the CLI
 
-- **500+** GPUs Available
-- **99.9%** Uptime SLA
-- **24/7** Technical Support
-- **Instant** VM Provisioning
-- **Custom** OS Installation Support
+### Current Status
 
-### 🌐 Use Cases
+Foundry is in active buildout. The public SDK and CLI are available, and the control plane has proven the VM lifecycle in the lab: create/delete flows reach Kubernetes/KubeVirt, usage is metered, and the next infrastructure milestone is a customer-like cluster with HA control-plane nodes, KubeVirt workers, and Rook/Ceph storage.
 
-**Perfect for:**
-- **AI/ML Researchers** - Train large language models and neural networks
-- **3D Artists & Studios** - Accelerate rendering workflows with real-time ray tracing
-- **Data Scientists** - Process large datasets with GPU-accelerated computing
-- **Developers** - Test GPU-intensive applications at scale
-- **Startups** - Access enterprise hardware without capital investment
+### Public Repositories
 
-### 🏢 Why Choose AES Services?
+- **[foundry-sdk](https://github.com/AES-Services/foundry-sdk)** - public Go SDK and API contract snapshots
+- **[foundry-cli](https://github.com/AES-Services/foundry-cli)** - public customer CLI for Foundry APIs
 
-- **✅ Flexible Pricing** - Hourly, daily, and monthly rates
-- **✅ Instant Deployment** - Get started in minutes, not hours
-- **✅ Full Root Access** - Complete control over your server environment
-- **✅ Enterprise Support** - Expert technical assistance when you need it
-- **✅ Scalable Solutions** - From single GPUs to large clusters
+More public tooling will be added as the platform matures.
 
-### 🔗 Get Started
+### Get In Touch
 
-**Ready to accelerate your projects?**
-
-- 🌐 **Website:** [aesservices.net](https://aesservices.net)
-- 📧 **Contact:** contact@aesservices.net
-- 💬 **Support:** Available 24/7 for technical assistance
-
-### 🛠️ Open Source
-
-We believe in giving back to the community. Check out our repositories for:
-- **Infrastructure as Code** - Kubernetes manifests and deployment scripts
-- **Automation Tools** - Server provisioning and management utilities
-- **Documentation** - Best practices for GPU server deployment
+- **Website:** [aesservices.net](https://aesservices.net)
+- **Contact:** [contact@aesservices.net](mailto:contact@aesservices.net)
 
 ---
 
-**🏢 AES Services LLC** - *Powering the future of high-performance computing*
-
-*Enterprise GPU leasing made simple, reliable, and affordable.*
+**AES Services LLC** - building practical cloud infrastructure for VMs, bare metal, and GPU workloads.
